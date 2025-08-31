@@ -1,6 +1,6 @@
 <template>
   <aside class="sidebar">
-    <a href="/" class="logo-section">
+    <router-link to="/" class="logo-section">
       <div class="logo-design">
         <div class="ucl-logo">
           <span class="letter-u">U</span><span class="letter-c">C</span><span class="letter-l">L</span>
@@ -9,16 +9,16 @@
       </div>
       <h1>大安聯合醫事檢驗所</h1>
       <p class="logo-subtitle">Union Clinical Laboratory</p>
-    </a>
+    </router-link>
     
     <div class="menu-section">
       <h3>主要功能</h3>
       <ul>
-        <li><a href="/news">聯合訊息</a></li>
-        <li><a href="/knowledge">知識庫</a></li>
-        <li><a href="/about">認識聯合</a></li>
-        <li><a href="/careers">人才招募</a></li>
-        <li><a href="/login">醫療院所登入</a></li>
+        <li><router-link to="/news">聯合訊息</router-link></li>
+        <li><router-link to="/knowledge">知識庫</router-link></li>
+        <li><router-link to="/about">認識聯合</router-link></li>
+        <li><router-link to="/careers">人才招募</router-link></li>
+        <li><router-link to="/login">醫療院所登入</router-link></li>
       </ul>
     </div>
     
@@ -31,7 +31,7 @@
         <button class="search-btn">🔍</button>
       </div>
       <ul>
-        <li><a href="/services">檢驗服務總覽</a></li>
+        <li><router-link to="/services">檢驗服務總覽</router-link></li>
       </ul>
     </div>
     

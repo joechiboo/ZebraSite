@@ -29,7 +29,7 @@
           <p><span class="code">451</span> 血清酮體定量分析恢復操作，本周氏蛋白試驗停止服務</p>
         </div>
         <div class="show-more">
-          <a href="/news">顯示更多 →</a>
+          <router-link to="/news">顯示更多 →</router-link>
         </div>
       </section>
 

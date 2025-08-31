@@ -11,7 +11,7 @@
           <p>地址：10665 台北市大安區<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;復興南路二段151巷33號</p>
           <p>電話：02-27049977</p>
           <p>傳真：02-27091974</p>
-          <p>Email：info@ucl.com.tw | <a href="/contact" class="inline-contact-link">聯絡我們</a></p>
+          <p>Email：info@ucl.com.tw | <router-link to="/contact" class="inline-contact-link">聯絡我們</router-link></p>
         </div>
         <div class="footer-section">
           <h4>營業時間</h4>
