@@ -14,12 +14,11 @@
     <div class="menu-section">
       <h3>主要功能</h3>
       <ul>
-        <li><a href="/reports">會員報告查詢</a></li>
         <li><a href="/news">聯合訊息</a></li>
         <li><a href="/knowledge">知識庫</a></li>
         <li><a href="/about">認識聯合</a></li>
         <li><a href="/careers">人才招募</a></li>
-        <li><a href="/login" class="admin-link">醫療院所登入</a></li>
+        <li><a href="/login">醫療院所登入</a></li>
       </ul>
     </div>
     
@@ -39,14 +38,15 @@
     <div class="menu-section">
       <h3>相關連結</h3>
       <ul>
-        <li><a href="https://www.hpa.gov.tw" target="_blank">衛生福利部 國民健康署</a></li>
-        <li><a href="https://www.cdc.gov.tw" target="_blank">衛生福利部 疾病管制署</a></li>
-        <li><a href="https://www.nhi.gov.tw" target="_blank">中央健康保險署</a></li>
-        <li><a href="https://www.mohw.gov.tw" target="_blank">衛生福利部</a></li>
-        <li><a href="#" target="_blank">聯準診所</a></li>
-        <li><a href="#" target="_blank">English Version</a></li>
-        <li><a href="#" target="_blank">健曄醫康</a></li>
-        <li><a href="https://www.nhi.gov.tw/QueryN/QueryN" target="_blank">健保碼鏈結查詢</a></li>
+        <li><a href="https://www.uclcloud.com.tw/" target="_blank">會員報告查詢</a></li>
+        <li><a href="https://www.hpa.gov.tw/Home/Index.aspx" target="_blank">衛生福利部 國民健康署</a></li>
+        <li><a href="https://www.cdc.gov.tw/" target="_blank">衛生福利部 疾病管制署</a></li>
+        <li><a href="https://www.ha.org.hk/visitor/ha_index.asp?Lang=CHIB5" target="_blank">醫院管理局</a></li>
+        <li><a href="https://www.nhi.gov.tw/ch/mp-1.html" target="_blank">中央健康保險署</a></li>
+        <li><a href="https://www.mohw.gov.tw/mp-1.html" target="_blank">衛生福利部</a></li>
+        <li><a href="https://upc.ucl.com.tw/reservation" target="_blank">聯準診所</a></li>
+        <li><a href="https://en.ucl.com.tw/" target="_blank">English Version</a></li>
+        <li><a href="https://www.cyt-inc.com/" target="_blank">健曄醫康</a></li>
       </ul>
     </div>
   </aside>
@@ -199,10 +199,6 @@
   color: white;
 }
 
-.admin-link {
-  font-size: 13px;
-  color: #999 !important;
-}
 
 @media (max-width: 768px) {
   .sidebar {
